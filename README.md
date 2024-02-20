@@ -24,7 +24,11 @@ where,
 --typeMessage: is the type of message to be produced: JSON or XML, default value is JSON
 --filterprefix: is the prefix to be filtered. Only the topics starting with this prefix will be considered to sending messages.
 ```
+The discovery assumes that each topic (a loyaltyCard) has a name accordingly with the following format name:
+```
 
+560987123-ArcoCegoLisbon
+```
 One example of an Purchase_Event message sent, in JSON, to the dicovered topic in Kafka is:
 ```
 {"Purchase_Event":
