@@ -26,8 +26,9 @@ where,
 ```
 The discovery assumes that each topic (a loyaltyCard) has a name accordingly with the following format name:
 ```
+loyaltycardID-Shop
 
-560987123-ArcoCegoLisbon
+For example: 560987123-ArcoCegoLisbon
 ```
 One example of an Purchase_Event message sent, in JSON, to the dicovered topic in Kafka is:
 ```
