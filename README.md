@@ -30,7 +30,7 @@ One example of an Purchase_Event message sent, in JSON, to the dicovered topic i
 {"Purchase_Event":
 	{
 		"TimeStamp":"2024-02-09 10:44:07.748",
-		"LoyaltyCard_ID":"qjfif783",
+		"LoyaltyCard_ID":"560987123",
 		"Price":"3.21",
 		"Product":"Pie",
 		"Supplier":"Feathered Friends Pet Haven",
